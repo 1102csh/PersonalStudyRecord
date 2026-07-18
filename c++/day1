@@ -20,9 +20,11 @@ int main(){
   return 0;
 }
 
-입출력 라이브러리 #include <iostream>
-using namespace std; 해당 선언 없으면 표준 라이브러리 사용시 std:: 붙여주어야 함
-ex) std::cout << "출력을 위해서 std::를 붙여주어야 함";
+/*
+// 입출력 라이브러리 #include <iostream>
+// using namespace std; 해당 선언 없으면 표준 라이브러리 사용시 std:: 붙여주어야 함
+// ex) std::cout << "출력을 위해서 std::를 붙여주어야 함";
 
-cout << // 출력
-cin >> // 입력
+// cout << // 출력
+// cin >> // 입력
+*/
