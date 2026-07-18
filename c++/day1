@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+  
+using namespace std;
+
+int main(){
+
+  int pos = 100;
+  double temp = 27.5;
+  bool isRunning = true;
+  char grade = 'A';
+  string equipname = "Tester";
+
+  cout << "Device name : " << equipname << "\n";
+  cout << "Current pos : " << pos << "\n";
+  cout << "Temperature : " << temp << "\n";
+  cout << "IsRunning : " << isRunning << "\n";
+  cout << "Grade : " << grade << "\n";
+  
+  return 0;
+}
+
+입출력 라이브러리 #include <iostream>
+using namespace std; 해당 선언 없으면 표준 라이브러리 사용시 std:: 붙여주어야 함
+ex) std::cout << "출력을 위해서 std::를 붙여주어야 함";
+
+cout << // 출력
+cin >> // 입력
