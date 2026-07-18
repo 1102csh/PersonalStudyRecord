@@ -1,4 +1,3 @@
-```
 #include <iostream>
 #include <string>
   
@@ -29,4 +28,3 @@ int main(){
 // cout << // 출력
 // cin >> // 입력
 */
-```
